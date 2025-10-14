@@ -1,0 +1,105 @@
+
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: url("Imagenes/General/rinconsito magico.png") center center / cover no-repeat fixed;
+  margin: 0;
+  padding-top: 80px;
+}
+
+/* --- NAVBAR --- */
+.navbar-custom {
+  background-color: #ff6f61;
+}
+
+.navbar-custom .navbar-brand {
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.navbar-custom .nav-link {
+  color: white !important;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #ffdcdc !important;
+}
+
+/* --- HEADER --- */
+.about-header {
+  text-align: center;
+  color: #fff;
+  background: rgba(255, 111, 97, 0.85);
+  padding: 60px 20px;
+  border-radius: 0 0 30px 30px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.about-header h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.about-header p {
+  font-size: 18px;
+}
+
+/* --- ACORDEÓN --- */
+.accordion-button {
+  background-color: #ffb6b6;
+  color: #333;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #ff6f61;
+  color: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.accordion-body {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  font-size: 16px;
+  color: #333;
+  padding: 20px;
+}
+
+/* --- FOOTER --- */
+.footer {
+  background: #ff6f61;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-info h3 {
+  font-size: 22px;
+}
+
+.footer-social a img {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  transition: transform 0.2s;
+}
+
+.footer-social a img:hover {
+  transform: scale(1.1);
+}
+
+.footer-bottom {
+  margin-top: 10px;
+  font-size: 13px;
+}

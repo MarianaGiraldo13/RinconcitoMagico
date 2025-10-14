@@ -1,0 +1,117 @@
+/* Fondo y estructura general */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-align: center;
+  background: linear-gradient(to right, #fce8e6, #fad0c4);
+  color: #333;
+  padding-top: 70px; /* navbar fija */
+}
+
+/* Barra de navegación */
+.navbar-custom {
+  background-color: #ff6f61 !important;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: white !important;
+}
+.navbar-nav .nav-link {
+  color: white !important;
+  font-weight: bold;
+}
+
+/* Header */
+header {
+  padding: 20px;
+  background: #ff6f61;
+  color: white;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+header p {
+  margin-top: 8px;
+  font-size: 1.2rem;
+}
+
+/* Contenedor de formulario */
+.formulario {
+  max-width: 400px;
+  margin: 40px auto;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  padding: 20px;
+}
+
+/* Pestañas */
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.tabs button {
+  flex: 1;
+  padding: 10px;
+  background: #ffe2de;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.tabs .active {
+  background: #ff6f61;
+  color: white;
+  font-weight: bold;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Botones centrados */
+.botones {
+  text-align: center;
+  margin-top: 15px;
+}
+button {
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+button:hover {
+  background-color: #e05245;
+}
+
+/* Mensajes */
+.success { color: green; margin-top: 10px; }
+.error { color: red; margin-top: 10px; }
+
+/* Footer */
+footer {
+  background: #ff6f61;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+}
